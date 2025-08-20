@@ -1,0 +1,7 @@
+numpy~=1.26.4
+cvxpy~=1.7.1
+openfermion~=1.6.1
+scipy~=1.13.1
+openfermionpyscf~=0.5
+matplotlib~=3.9.4
+mosek~=10.2.17
