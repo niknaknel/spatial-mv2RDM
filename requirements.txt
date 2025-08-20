@@ -5,3 +5,4 @@ scipy~=1.13.1
 openfermionpyscf~=0.5
 matplotlib~=3.9.4
 mosek~=10.2.17
+qiskit~=2.1.2
