@@ -36,7 +36,7 @@ def run_sdp(molecule, conditions='DQG', measurements=[], noisy=False, epsilon=1e
 
     # Solve SDP
     problem = cp.Problem(objective, constraints)
-    problem.solve(solver=cp.MOSEK, eps=1e-8)
+    problem.solve(solver=cp.SCS, eps=1e-8) # change to cp.MOSEK if you have a license
 
     # Check status
     if problem.status in cp.settings.INF_OR_UNB:
