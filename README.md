@@ -27,7 +27,7 @@ quantum information processing.
 
 ## Example usage
 The `notebooks/example.ipynb` file contains some examples on how
-to run the spatial m-v2RDM for H$_2$ and H$_4$.
+to run the spatial m-v2RDM for hydrogen and the hydrogen chain.
 
 ## Mappings demo
 The `notebooks/mappings-demo.ipynb` file demonstrates the correctness of the
